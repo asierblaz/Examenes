@@ -1,6 +1,5 @@
 package Examen2018;
 
-
 import java.util.Scanner;
 
 public class AstekoEgunak {
@@ -12,34 +11,33 @@ public class AstekoEgunak {
         };
 
         Scanner in = new Scanner(System.in);
-        int eguna=0;
+        int eguna = 0;
         String idioma = "";
         //IDATZI HEMEN ZURE KODEA
         System.out.print("Aukeratu eguna(1-7): ");
         eguna = in.nextInt();
         System.out.print("Aukeratu hizkuntza (EU, ES, EN): ");
         idioma = in.next().toLowerCase();
-    
+        System.out.println(idioma);
 
-            if ((eguna>=1 && eguna <= 7)&&(("eu".equals(idioma) && "es".equals(idioma) && "en".equals(idioma)))) {
-               
-               if ("eu".equals(idioma)) {
+        if ((eguna >= 1 && eguna <= 7) && (("eu".equals(idioma) && "es".equals(idioma) && "en".equals(idioma)))) {
 
-                    System.out.println(astekoEgunak[0][eguna - 1]);
-                }
-                if ("es".equals(idioma)) {
+            if ("eu".equals(idioma)) {
 
-                    System.out.println(astekoEgunak[1][eguna - 1]);
-                }
-                if ("en".equals(idioma)) {
+                System.out.println(astekoEgunak[0][eguna - 1]);
+            }
+            if ("es".equals(idioma)) {
 
-                    System.out.println(astekoEgunak[2][eguna - 1]);
-                
-                 }
-                
-            }else{
-                 System.out.println("Balio okerrak sartu dituzu.");
-                }
+                System.out.println(astekoEgunak[1][eguna - 1]);
+            }
+            if ("en".equals(idioma)) {
+
+                System.out.println(astekoEgunak[2][eguna - 1]);
+
+            }
+
+        } else {
+            System.out.println("Balio okerrak sartu dituzu.");
         }
     }
-
+}
