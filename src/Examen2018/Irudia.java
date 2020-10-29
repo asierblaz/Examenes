@@ -7,8 +7,8 @@ public class Irudia {
 
         int zenbakia = 4;
         char karakterea = '@';
-        //laukiHorizontalaIrudikatu(6, '#');
-        laukiHorizontalaIrudikatu(zenbakia,karakterea);
+        laukiHorizontalaIrudikatu(6, '#');
+     //   laukiHorizontalaIrudikatu(zenbakia,karakterea);
 
     }
 
