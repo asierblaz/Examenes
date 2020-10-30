@@ -50,7 +50,6 @@ public class HitzBanaketa {
             k++;
         }
         hitzak[h] = hitza;
-        System.out.println(esaldia.length());
         System.out.println(Arrays.toString(hitzak));
     }
 

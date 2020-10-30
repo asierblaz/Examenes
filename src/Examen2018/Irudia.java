@@ -8,15 +8,15 @@ public class Irudia {
         int zenbakia = 4;
         char karakterea = '@';
         laukiHorizontalaIrudikatu(6, '#');
-     //   laukiHorizontalaIrudikatu(zenbakia,karakterea);
+       //laukiHorizontalaIrudikatu(zenbakia,karakterea);
 
     }
 
     public static void laukiHorizontalaIrudikatu(int neurria, char ikurra) {
 
         //IDATZI ZURE KODEA HEMEN
-       int altuera= neurria;
-       int zabalera= neurria/2;
+       int altuera= neurria/2;
+       int zabalera=neurria;
         
         
         for (int i = 1; i <= altuera; i++) {  // alto

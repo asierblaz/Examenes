@@ -19,7 +19,7 @@ public class AstekoEgunak {
         System.out.print("Aukeratu hizkuntza (EU, ES, EN): ");
         idioma = in.next().toLowerCase();
 
-        if (eguna >= 1 && eguna <= 7)  {
+        if (eguna >= 1 && eguna <= 7) {
 
             if ("eu".equals(idioma)) {
 
@@ -34,7 +34,7 @@ public class AstekoEgunak {
                 System.out.println(astekoEgunak[2][eguna - 1]);
 
             }
-            if(!"eu".equals(idioma) && !"es".equals(idioma) && !"en".equals(idioma)){
+            if (!"eu".equals(idioma) && !"es".equals(idioma) && !"en".equals(idioma)) {
                 System.out.println("Balio okerrak sartu dituzu.");
             }
 

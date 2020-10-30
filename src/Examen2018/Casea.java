@@ -1,6 +1,5 @@
 package Examen2018;
 
-
 public class Casea {
 
     public static void main(String[] args) {
