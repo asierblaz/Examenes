@@ -29,7 +29,6 @@ public class Zatigarria {
         zatikizuna = in.nextInt();
         System.out.print("Sartu Zatitzailea (zenbaki txikia): ");
         zatitzailea = in.nextInt();
-        boolean a = true;
 
         if (zatigarriaDa(zatikizuna, zatitzailea)) {
 
